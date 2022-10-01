@@ -6,6 +6,7 @@ import Home from './Pages/Home/Home';
 import AllCategories from './Pages/All Categories/AllCategories';
 import Navbar2 from './Pages/Shared/Navbar2';
 import Login from './Pages/Login/Login';
+import Footer from './Pages/Shared/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="login" element={<Login />} /> */}
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
